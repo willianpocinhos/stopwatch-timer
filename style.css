@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    /* text-align: center; */
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#options {
+    /* border: 1px solid red; */
+    font-size: 1.5em;
+    color: rgba(0, 0, 0);
+    font-weight: normal;
+
+}
+
+#stopwatch {
+    border-right: 1px solid rgba(0, 0, 0);
+    padding-right: 40px;
+    color: black;
+}
+
+#timer {
+    margin-left: 33px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#display {
+    color: #DBF227;
+    margin: 50px 0;
+    font-size: 9em;
+    /* border: 1px solid red; */
+}
+
+#hms-mobile {
+    display: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#hms {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#cent-mobile {
+    display: none;
+    font-size: 0.5em;
+}
+
+#cent {
+    font-size: 0.5em;
+}
+
+#legend {
+    font-size: 0.1em;
+    margin-top: -20px;
+    font-weight: bold;
+    color: #DBF227;
+}
+
+#legend span {
+    display: inline-block;
+    text-align: center;
+    /* border: 1px solid red; */
+    width: 167px;
+}
+
+#legend span:nth-child(2) {
+    margin-left: 33px;
+    margin-right: 35px;
+}
+
+.button {
+    color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.button:active {
+    opacity: 0.5;
+}
+
+#pause {
+    background-color: #278BF2;
+    border-radius: 7px 0 0 7px;
+}
+
+#start {
+    background-color: #DBF227;
+    height: 70px;
+    margin: 0 10px;
+    border-radius: 7px;
+}
+
+#start:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+
+#stop {
+    background-color: #F23527;
+    border-radius: 0 7px 7px 0;
+}
+
+footer {
+    margin-top: 100px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+footer a {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    #display {
+        color: #DBF227;
+        margin: 50px 0;
+        font-size: 6.5em;
+        /* border: 1px solid red; */
+    }
+
+    #hms-mobile {
+        display: inline;
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    #hms {
+        display: none;
+    }
+
+    #cent-mobile {
+        display: inline;
+        font-size: 0.5em;
+    }
+
+    #cent {
+        display: none;
+        font-size: 0.5em;
+    }
+
+    #legend {
+        display: none;
+    }
+
+    #buttons{
+        text-align: center;
+        /* border: 1px solid red; */
+        width: 85%;
+    }
+
+    .button {
+        color: rgba(0, 0, 0, 0.7);
+        cursor: pointer;
+        width: 48%;
+        height: 50px;
+        font-weight: normal;
+        font-size: 1em;
+    }
+    
+    
+    #pause {
+        border-radius: 7px 0 0 7px;
+        float: left;
+    }
+    
+    #start {
+        height: 110px;
+        margin: 0;
+        border-radius: 0 7px 7px 0;
+        float: right;
+    }
+
+    #stop {
+        border-radius: 7px 0 0 7px;
+        float: left;
+        margin-top: 10px;
+    }
+
+}

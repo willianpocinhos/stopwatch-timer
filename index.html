@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div id="options">
+            <a href="#" id="stopwatch"><i class="fa-solid fa-stopwatch"></i> Stopwatch</a>
+            <a href="timer.html" id="timer"><i class="fa-solid fa-hourglass-half"></i> Timer</a>
+        </div>
+        <div id="display">
+            <span id="hms-mobile">00:00</span><span id="cent-mobile">.00</span>
+            <span id="hms">00:00:00</span><span id="cent">.00</span>
+            
+            <div id="legend">
+                <span>HORAS</span> <span>MINUTOS</span> <span>SEGUNDOS</span>
+            </div>
+        </div>
+        <div id="buttons">
+            <button class="button" id="pause" onclick="pause()"><i class="fa-solid fa-pause"></i> Pause</button>
+            <button class="button" id="start" onclick="start()"><i class="fa-solid fa-play"></i> Start</button>
+            <button class="button" id="stop" onclick="stop()"><i class="fa-solid fa-stop"></i> Stop</button>
+        </div>
+        <footer>
+            <p>Desenvolvido por <a href="https://www.linkedin.com/in/willian-p-santos/" target="_blank">Willian P Santos</a></p>
+        </footer>
+    </main>
+</body>
+<script src="https://kit.fontawesome.com/d2b741dfe0.js" crossorigin="anonymous"></script>
+<script src="./script.js"></script>
+
+</html>
