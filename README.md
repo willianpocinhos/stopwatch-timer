@@ -1,7 +1,7 @@
 # PROJETO STOPWATCH/TIMER
 <br>
 <br>
-Este projeto tem duas ferramentas diponíveis: CRONÔMETRO (stopwatch) e TEMPORIZADOR (timer).
+Este projeto tem duas ferramentas disponíveis: CRONÔMETRO (stopwatch) e TEMPORIZADOR (timer).
 <br>
 <br>
 - CRONÔMETRO (stopwatch): Basta clicar em 'Start' e o tempo começa a correr. Também é possível pausar o tempo através do botão 'Pause' ou zerar o CRONÔMETRO através do botão 'Stop'.
